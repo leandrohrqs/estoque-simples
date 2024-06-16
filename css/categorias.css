@@ -1,0 +1,28 @@
+.category-list {
+  margin-top: 20px;
+}
+
+.category-list h2 {
+  margin-bottom: 10px;
+}
+
+.category-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.category-list th,
+.category-list td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.category-list th {
+  background-color: #f0f0f0;
+}
+
+.no-categories-message {
+  text-align: center;
+  color: #888;
+}

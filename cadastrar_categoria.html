@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastrar Categoria</title>
+    <link rel="icon" href="./assets/icon.jpg" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/cadastrar_categoria.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="./assets/caixa-branca.png" alt="Logo" />
+          <p>Estoque Simples</p>
+        </a>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Início</a>
+        <a href="categorias.html">Categorias</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="category-form">
+        <h2>Cadastrar Categoria</h2>
+        <form id="category-form">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" maxlength="40" required />
+          <button type="submit">Cadastrar</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="./js/cadastrar_categoria.js"></script>
+  </body>
+</html>

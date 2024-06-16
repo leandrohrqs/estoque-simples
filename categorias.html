@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categorias</title>
+    <link rel="icon" href="./assets/icon.jpg" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/categorias.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="./assets/caixa-branca.png" alt="Logo" />
+          <p>Estoque Simples</p>
+        </a>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Início</a>
+        <a href="categorias.html">Categorias</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="category-list">
+        <h2>Categorias</h2>
+        <button
+          onclick="window.location.href='cadastrar_categoria.html'"
+          class="add-category-button"
+        >
+          Cadastrar Categoria
+        </button>
+        <table id="categories-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Categoria</th>
+              <th>Updated At</th>
+              <th>Created At</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody id="categories-container"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="./js/categorias.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estoque Simples</title>
+    <link rel="icon" href="./assets/icon.jpg" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="./assets/caixa-branca.png" alt="Logo" />
+          <p>Estoque Simples</p>
+        </a>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Início</a>
+        <a href="cadastrar_produto.html">Cadastrar Produto</a>
+        <a href="categorias.html">Categorias</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="search-filter-container">
+        <input type="text" id="search-bar" placeholder="Buscar produtos..." />
+        <select id="category-filter">
+          <option value="">Todas as Categorias</option>
+        </select>
+      </section>
+      <section class="product-list">
+        <h2>Produtos</h2>
+        <div id="products-container" class="products-container"></div>
+        <div id="pagination-container" class="pagination-container"></div>
+      </section>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

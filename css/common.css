@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.add-product-button,
+.add-category-button,
+.product-form button,
+.category-form button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  cursor: pointer;
+}
+
+.add-product-button:hover,
+.add-category-button:hover,
+.product-form button:hover,
+.category-form button:hover {
+  background-color: #218838;
+}
+
+.edit-category-button,
+.delete-category-button,
+.edit-product-button,
+.delete-product-button {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 3px;
+  border: none;
+  margin-right: 5px;
+}
+
+.edit-category-button,
+.edit-product-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-category-button:hover,
+.edit-product-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-category-button,
+.delete-product-button {
+  background-color: white;
+  border: 2px solid #dc3545;
+  color: #dc3545;
+}
+
+.delete-category-button:hover,
+.delete-product-button:hover {
+  background-color: #dc3545;
+  color: white;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastrar Produto</title>
+    <link rel="icon" href="./assets/icon.jpg" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/cadastrar_produto.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="./assets/caixa-branca.png" alt="Logo" />
+          <p>Estoque Simples</p>
+        </a>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Início</a>
+        <a href="categorias.html">Categorias</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="product-form">
+        <h2 id="form-title">Cadastrar Produto</h2>
+        <form id="product-form" enctype="multipart/form-data">
+          <input type="hidden" id="product-id" name="id" />
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="description">Descrição:</label>
+          <textarea id="description" name="description" required></textarea>
+
+          <label for="category">Categoria:</label>
+          <select id="category" name="category_id" required>
+            <option value="">Selecione a Categoria</option>
+          </select>
+
+          <label for="quantity">Quantidade:</label>
+          <input type="number" id="quantity" name="quantity" required />
+
+          <label for="price">Preço:</label>
+          <input type="number" step="0.01" id="price" name="price" required />
+
+          <label for="image">Imagem:</label>
+          <input
+            type="file"
+            id="image"
+            name="image"
+            accept="image/png, image/jpeg"
+          />
+
+          <button type="submit">Salvar</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="./js/cadastrar_produto.js"></script>
+  </body>
+</html>
