@@ -2,38 +2,6 @@
 
 Este é um projeto simples para gerenciar um estoque de produtos, desenvolvido com Node.js, Express, SQLite e frontend em HTML, CSS e JavaScript.
 
-## Estrutura do Projeto
-
-.
-├── assets
-│ ├── caixa-branca.png
-│ ├── default.jpg
-│ └── icon.jpg
-├── cadastrar_categoria.html
-├── cadastrar_produto.html
-├── categorias.html
-├── css
-│ ├── cadastrar_categoria.css
-│ ├── cadastrar_produto.css
-│ ├── categorias.css
-│ ├── common.css
-│ └── index.css
-├── db
-│ └── estoque_simples.db
-├── index.html
-├── js
-│ ├── cadastrar_categoria.js
-│ ├── cadastrar_produto.js
-│ ├── categorias.js
-│ ├── fetch_products.js
-│ ├── index.js
-│ └── produto.js
-├── package.json
-├── package-lock.json
-├── produto.html
-├── seeder_db.py
-├── server.js
-
 ## Pré-requisitos
 
 - [Node.js](https://nodejs.org/) (versão 14 ou superior)
